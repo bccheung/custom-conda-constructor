@@ -1,0 +1,49 @@
+name: SAPconda3
+version: 4.7.12
+company: WSP Canada Inc.
+
+channels:
+  - https://conda.anaconda.org/conda-forge/
+  - https://repo.anaconda.com/pkgs/msys2/
+  - https://repo.anaconda.com/pkgs/main/
+
+specs:
+  - python>=3.7
+  - conda
+  - menuinst
+  - console_shortcut
+  - powershell_shortcut
+  - anaconda-navigator
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - seaborn
+  - numba
+  - numexpr
+  - jupyterlab
+  - pyarrow
+  - feather-format
+  - jupyter_contrib_nbextensions
+  - nodejs
+  - conda-build
+  - conda-pack
+  - conda-verify
+  - constructor
+
+ignore_duplicate_files: True
+install_in_dependency_order: True
+
+conda_default_channels:
+  - https://conda.anaconda.org/conda-forge/
+  - https://repo.anaconda.com/pkgs/msys2/
+  - https://repo.anaconda.com/pkgs/main/
+
+keep_pkgs: True
+
+license_file: LICENSE
+
+welcome_image: welcome_image_wsp.bmp
+header_image: wsp_logo_red.bmp
+icon_image: wsp_logo_red_icon.bmp
+default_image_color: red
