@@ -30,6 +30,9 @@ specs:
   - conda-pack
   - conda-verify
   - constructor
+  - pylint
+  - rope
+  - nb_conda
 
 ignore_duplicate_files: True
 install_in_dependency_order: True
