@@ -1,9 +1,8 @@
-name: SAPconda3
+name: wsp-sap-conda3
 version: 4.7.12
 company: WSP Canada Inc.
 
 channels:
-  - https://conda.anaconda.org/conda-forge/
   - https://repo.anaconda.com/pkgs/msys2/
   - https://repo.anaconda.com/pkgs/main/
 
@@ -23,22 +22,26 @@ specs:
   - numexpr
   - jupyterlab
   - pyarrow
-  - feather-format
-  - jupyter_contrib_nbextensions
   - nodejs
   - conda-build
-  - conda-pack
   - conda-verify
   - constructor
   - pylint
   - rope
   - nb_conda
+  - geopandas
+  - gdal>=3.0
+  - xlrd
+  - xlwt
+  - openpyxl
+  - xlsxwriter
+  - sqlalchemy
+  - qtpy
 
 ignore_duplicate_files: True
 install_in_dependency_order: True
 
 conda_default_channels:
-  - https://conda.anaconda.org/conda-forge/
   - https://repo.anaconda.com/pkgs/msys2/
   - https://repo.anaconda.com/pkgs/main/
 
